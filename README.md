@@ -12,7 +12,7 @@
 
 [![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=https%3A%2F%2Fraw.githubusercontent.com%2Fnlnadialigia%2Ftest-backend-nodejs%2Fnadialigiacostadossantos%2Finsomnia.json&uri=)
 
-## 📋 Index
+## ℹ️ Index
 
 - [About](#-about)
 - [Routes](#-routes)
@@ -20,13 +20,13 @@
 - [Author](#-author)
 - [License](#-license)
 
-## 🚀 About
+## 📑 About
 
 This application was built using **JavaScript**, **Node.js**, **Express** and **MongoDB**. 
 
 In this API was created routes to create, update, delete and find products in a catalog.
 
-## ⚙️ Routes
+## 📚 Routes
 
 |route|HTTP Method|params|description
 |:---|:---:|:---:|:---:
@@ -37,7 +37,7 @@ In this API was created routes to create, update, delete and find products in a 
 |`/products/:id`|DELETE|Query parameter with `id`|Deletes a specific product through it's id
 
 
-## 🤖 Technologies
+## ⚙️ Technologies
 
 The project was developed using this technologies:
 
@@ -46,7 +46,7 @@ The project was developed using this technologies:
 - [Express](https://expressjs.com/)
 - [Swagger](https://swagger.io/)
 
-## ⚙ How to Use
+## 🤔 How to Use
 
 ```bash
 # Clone this repository
@@ -60,22 +60,23 @@ $ cd test-backend-nodejs
 # Install the dependencies
 
 $ yarn
+```
 
-# Open the project, create a .env file and fill with informations about your MongoDB database. See the example in the .env-example file
+### ⁉️ Open the project, create a `.env` file and fill with informations about your MongoDB database. See the example in the `.env-example` file.
 
+```bash
 # Start the project
 
 $ yarn dev
 
 ```
 
-See the API Documentation in this [link](http://localhost:3390/api-docs/).
+### ➡️ See the API Documentation in this [link](http://localhost:3390/api-docs/).
 
 
-## 👨‍🚀 Author
+## 👩‍💻 Author
 
 ### Nádia Ligia
-#### Budding back-end developer.
 
 <a href="https://www.linkedin.com/in/nlnadialigia/">
   <img alt="Linkedin" src="https://img.shields.io/badge/-Linkedin -91091e?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nlnadialigia/" />
