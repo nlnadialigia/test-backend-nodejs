@@ -5,7 +5,7 @@
   "repository": "https://github.com/nlnadialigia/test-backend-nodejs.git",
   "author": "Nadia <nlnadialigia@gmail.com>",
   "license": "MIT",
-  "types": "module",
+  "type":"module",
   "scripts": {
     "dev": "nodemon src/server.js"
   },
