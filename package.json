@@ -5,14 +5,15 @@
   "repository": "https://github.com/nlnadialigia/test-backend-nodejs.git",
   "author": "Nadia <nlnadialigia@gmail.com>",
   "license": "MIT",
-  "type":"module",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/server.js"
   },
   "dependencies": {
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "mongoose": "^5.12.2"
+    "mongoose": "^5.12.2",
+    "swagger-ui-express": "^4.1.6"
   },
   "devDependencies": {
     "eslint": "^7.22.0",
