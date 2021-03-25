@@ -1,40 +1,93 @@
-<h1>Backend Analyst Candidate Testing</h1>
+<h1 align="center">API with Node.js, Express and MongoDB</h1>
 
-Hello dear developer, in this test we will analyze your general knowledge and even speed of development. Below we will explain everything that will be needed.
-Do not be alarmed, we do not expect everyone to be able to complete all tasks, this test is the same presented for candidates of all experience levels, so do what you can without worry.
+<h1 align="center">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/nlnadialigia/test-backend-nodejs?color=91091e&style=flat-square"/>
 
-<strong>The challenge</strong>
+  <img alt="Repo size" src="https://img.shields.io/github/repo-size/nlnadialigia/test-backend-nodejs?color=91091e"/>
 
-Your challenge is to develop an API, using Node.JS, for a product catalog management application. Thus, you must analyze and convert the user stories below into routes of an application.
- 
-<strong>User stories:</strong>
+  <a href="./LICENSE.md">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=91091e"/>
+  </a>
+</h1>
 
-- As a user I would like to register a product so that I can have access to the data of this product in the future (Title, description, price, category)
-- I as a user would like to be able to associate and edit a product category;
-- As a user I would like to be able to access the list of all products;
-- As a user I would like to be able to filter products by name or category;
-- I as a user would like to be able to update the product data;
-- I as a user would like to be able to delete a product from my catalog;
- 
-<strong>Instructions</strong>
-- <strong>To start the test, <strong>fork</strong> this repository, create a branch with its full name and then and send us the link to the test performed (link to your repository) . If you just clone the repository you will not be able to push and then it will be more complicated to make the pull request.</strong>
-- The choice of libraries, databases, architecture, etc. is at your discretion.
-- Change the README file explaining what it takes to run your application.
-- Paste the branch name into the GUPY system and indicate the completion of the test
-- If you want you can leave us feedback regarding the test
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=https%3A%2F%2Fraw.githubusercontent.com%2Fnlnadialigia%2Ftest-backend-nodejs%2Fnadialigiacostadossantos%2Finsomnia.json&uri=)
 
- 
-<strong>Our analysis</strong>
-- Knowledge of Javascript, NodeJs, Express will be assessed for this position;
-- We'll look at how you structure the:
-  application layers;
-  outgoing calls,
-  environment variables,
-   cache,
-  unit tests,
-  logs;
-  error handling;
-  documentation.
-- Code organization, module separation, readability and comments.
-- Commit history.
-- The use of MongoDB is a differentiator
+## 📋 Index
+
+- [About](#-about)
+- [Routes](#-routes)
+- [How To Use](#-how-to-use)
+- [Author](#-author)
+- [License](#-license)
+
+## 🚀 About
+
+This application was built using **JavaScript**, **Node.js**, **Express** and **MongoDB**. 
+
+In this API was created routes to create, update, delete and find products in a catalog.
+
+## ⚙️ Routes
+
+|route|HTTP Method|params|description
+|:---|:---:|:---:|:---:
+|`/products`|GET| - |Lists the products registered in the database
+|`/products/:id`|GET|Query parameter with `id`|Lists a specific product through it's id
+|`/products`|POST|Request body with `title`, `description`, `price` and `category`|Creates a new product
+|`/products/:id`|PUT|Query parameter with `id`|Updates a specific product through it's id
+|`/products/:id`|DELETE|Query parameter with `id`|Deletes a specific product through it's id
+
+
+## 🤖 Technologies
+
+The project was developed using this technologies:
+
+- [MongoDB](https://www.mongodb.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Express](https://expressjs.com/)
+- [Swagger](https://swagger.io/)
+
+## ⚙ How to Use
+
+```bash
+# Clone this repository
+
+$ https://github.com/nlnadialigia/test-backend-nodejs.git
+
+# Enter the project folder
+
+$ cd test-backend-nodejs
+
+# Install the dependencies
+
+$ yarn
+
+# Open the project, create a .env file and fill with informations about your MongoDB database. See the example in the .env-example file
+
+# Start the project
+
+$ yarn dev
+
+```
+
+See the API Documentation in this [link](http://localhost:3390/api-docs/).
+
+
+## 👨‍🚀 Author
+
+### Nádia Ligia
+#### Budding back-end developer.
+
+<a href="https://www.linkedin.com/in/nlnadialigia/">
+  <img alt="Linkedin" src="https://img.shields.io/badge/-Linkedin -91091e?style=flat&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nlnadialigia/" />
+</a>&nbsp;
+<a href="mailto:nlnadialigia@gmail.com">
+  <img alt="Email" src="https://img.shields.io/badge/-Email-91091e?style=flat&logo=Gmail&logoColor=white&link=mailto:nlnadialigia@gmail.com" />
+</a>&nbsp;
+<a href="https://www.nlnadialigia.com">
+  <img alt="Homepage" src="https://img.shields.io/badge/-Homepage-91091e" />
+</a>
+
+
+## 📝 License
+
+This project is under the [MIT](./LICENSE) license.
